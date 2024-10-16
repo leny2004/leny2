@@ -5,10 +5,9 @@ main {
     align-items: center;
     padding: 50px;
     font-family: 'Roboto', sans-serif;
-  }
+}
 
-
-  .card {
+.card {
     width: 16rem;
     height: 24rem;
     border-radius: 10px;
@@ -18,10 +17,9 @@ main {
     color: rgb(240, 240, 240);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     margin: 2px;
-  }
+}
 
-
-  img {
+img {
     position: absolute;
     object-fit: cover;
     width: 100%;
@@ -30,10 +28,9 @@ main {
     left: 0;
     opacity: 0.9;
     transition: opacity .2s ease-out;
-  }
+}
 
-
-  h2 {
+h2 {
     position: absolute;
     inset: auto auto 30px 30px;
     margin: 0;
@@ -41,10 +38,18 @@ main {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
-  }
+}
 
-
-  .card:hover h2 {
+.card:hover h2 {
     inset: auto auto 220px 30px;
     transition: inset .3s ease-out;
-  }
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+}
